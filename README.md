@@ -8,6 +8,9 @@
 - 스타트업 투자 회의록 JSON 데이터 기반 질의응답
 - Streamlit 기반 웹 UI
 
+## 실행 화면
+![실행화면](assets/image1.png)
+
 ## 기술 스택
 - Python 3.10 이상
 - [LangChain](https://github.com/langchain-ai/langchain)
