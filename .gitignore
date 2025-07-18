@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 가상환경
+.venv/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+
+# 환경설정
+.env
+
+# Lock/설치 파일
+uv.lock
+poetry.lock
+Pipfile.lock
+
+# 백업/임시 파일
+*.bak
+*.bak.*
+*~
+
+# 데이터(민감/대용량 파일은 직접 관리)
+# data/ 폴더는 기본적으로 포함, 필요시 개별 파일 지정
+
+# 벡터 DB (자동 생성, git 제외)
+chroma_db/
